@@ -1,0 +1,16 @@
+.back-img {
+    background-image: url("../img/background.jpg");
+    height: 30vh !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+
+   
+}
+.nav-pills .nav-link {
+    color:white;
+    font-weight: bold;
+}
