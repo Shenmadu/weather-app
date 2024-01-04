@@ -3,7 +3,7 @@ document.getElementById("btn-seach").addEventListener("click",()=>{
 let reop={
     method:'Get'
 };
-fetch(`http://api.weatherapi.com/v1/current.json?key=007cf56f70d4431d99392717233012&q=${search}`,reop)
+fetch(`https://api.weatherapi.com/v1/current.json?key=007cf56f70d4431d99392717233012&q=${search}`,reop)
 .then(response=>response.json())
 .then(data =>{
     console.log(data);
